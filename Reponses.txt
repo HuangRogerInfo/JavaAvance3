@@ -1,0 +1,54 @@
+Exercice 2 : 
+
+*Question 1
+Sans equals
+false
+false
+true
+false
+false
+true
+
+Tout est normal, sauf pour equals. 
+Quand il n'est pas définit, deux objets avec la même référence
+sont égaux.
+En le redéfinissant, deux objets ayant les même attributs
+sont égaux.
+
+Avec equals 
+false
+false
+true
+false
+true
+true
+
+*Question 2
+0
+1
+1
+true
+
+Ce n'est pas un comportement logique, car on a pas 
+ajouté c dans la liste.
+
+Le indexOf va parcourir la liste, 
+puis chercher le plus petit indice de l'objet qui a les attributs 
+de l'objet passé en paramètre. Si deux objets ont les mêmes attributs, 
+il ne va pas trouver l'indice du deuxième.
+
+Pour changer cela, on veut que deux objets sont égaux si et 
+seulement si ils ont les mêmes attributs et la même référence.
+
+*Question 3
+Pas logique car c n'est pas dans l'ensemble.
+Il faut redéfinir hashcode.
+
+Exe 4
+
+*Question 1
+C'est un échec car on a pas définit equals.
+
+*Question 2
+Non ce n'est pas satisfaisant.
+
